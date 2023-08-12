@@ -84,6 +84,7 @@ The RealityScript VS Code extension offers:
 
 **Installing VS Code Extension**
 - Copy `realityscript-vscode/` into your `~/.vscode/extensions` dir for Mac and Linux, and similar extension dir for Windows.
+- Create a `.rs` or `.realityscript` file, select `RealityScript` as default language in bottom-right corner, and voila - plugin enabled.  
 
 ## Integration with ChatGPT
 
