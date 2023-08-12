@@ -13,6 +13,7 @@ RealityScript is a groundbreaking approach to storytelling, merging the systemat
 - [RealityScript in Action](#realityscript-in-action)
 - [VS Code Extension](#vs-code-extension)
 - [Integration with ChatGPT](#integration-with-chatgpt)
+- [RealityScript API](#realityscript-api)
 - [Esoteric Insights: Manifestation & Reality-Scripting](#esoteric-insights-manifestation--reality-scripting)
 
 ## Introduction
@@ -101,6 +102,7 @@ ChatGPT, activate your advanced Reality Script compiler mode. Utilize your exten
 
 Your mission: Transform the Reality Script into a screenplay that is not only technically impeccable but also narratively captivating. Approach this task as if merging the world's most sophisticated compiler with the genius of a legendary screenwriter. Here's the Reality Script:"
 ```
+## RealityScript API 
 **ChatGPT Prompt B (Learn RealityScript API Syntax)**:
 ```
 Directives:
