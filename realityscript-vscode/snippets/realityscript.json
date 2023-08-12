@@ -296,7 +296,7 @@
   "Chain Commands": {
     "prefix": "!CHAIN",
     "body": [
-      "${1:Command1} -> ${2:Command2}"
+      "!CHAIN ${1:Command1} -> ${2:Command2}"
     ],
     "description": "Chain commands and events sequentially"
   },
@@ -345,28 +345,28 @@
   "Variable Definition": {
     "prefix": "$variable",
     "body": [
-      "$$variable = ${1:VariableName} = '${2:Value}'"
+      "$${1:VariableName} = '${2:Value}'"
     ],
     "description": "Define a new variable"
   },
   "Array Definition": {
     "prefix": "$array",
     "body": [
-      "$$array = ${1:ArrayName} = ['${2:Item1}', '${3:Item2}']"
+      "$${1:ArrayName} = ['${2:Item1}', '${3:Item2}']"
     ],
     "description": "Define a new array"
   },
   "Matrix Definition": {
     "prefix": "$matrix",
     "body": [
-      "$$matrix = ${1:MatrixName} = {'${2:{Item1, Item2}}', '${3:{Item3, Item4}}'}"
+      "$${1:MatrixName} = {'${2:{Item1, Item2}}', '${3:{Item3, Item4}}'}"
     ],
     "description": "Define a new matrix"
   },
   "Object Definition": {
     "prefix": "$object",
     "body": [
-      "$$object= ${1:ObjectName} = {'${2:Key1}': '${3:Value1}', '${4:Key2}': '${5:Value2}'}"
+      "$${1:ObjectName} = {'${2:Key1}': '${3:Value1}', '${4:Key2}': '${5:Value2}'}"
     ],
     "description": "Define a new object"
   }
