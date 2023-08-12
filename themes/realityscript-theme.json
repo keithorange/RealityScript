@@ -1,0 +1,108 @@
+{
+  "name": "RealityScript Neon Color Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e1e1e",
+    "editor.foreground": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Variable Names",
+      "scope": "variable-name.realityscript",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "name": "Directives",
+      "scope": "directive.realityscript",
+      "settings": {
+        "foreground": "#FF3434"
+      }
+    },
+    {
+      "name": "Commands",
+      "scope": "command.realityscript",
+      "settings": {
+        "foreground": "#00FF00"
+      }
+    },
+    {
+      "name": "Modifiers",
+      "scope": "modifier.realityscript",
+      "settings": {
+        "foreground": "#87CEEB"
+      }
+    },
+    {
+      "name": "System",
+      "scope": "system.realityscript",
+      "settings": {
+        "foreground": "#FFC0CB"
+      }
+    },
+    {
+      "name": "Logic",
+      "scope": "logic.realityscript",
+      "settings": {
+        "foreground": "#BA55D3"
+      }
+    },
+    {
+      "name": "Feedback",
+      "scope": "feedback.realityscript",
+      "settings": {
+        "foreground": "#FF6B6B"
+      }
+    },
+    {
+      "name": "Technique",
+      "scope": "technique.realityscript",
+      "settings": {
+        "foreground": "#BFFF00"
+      }
+    },
+    {
+      "name": "Debug",
+      "scope": "debug.realityscript",
+      "settings": {
+        "foreground": "#40E0D0"
+      }
+    },
+    {
+      "name": "Parameter Name and Equals",
+      "scope": "param-name-and-equals.realityscript",
+      "settings": {
+        "foreground": "#A9A9A9"
+      }
+    },
+    {
+      "name": "Function Enclosed",
+      "scope": "function-enclosed.realityscript",
+      "settings": {
+        "foreground": "#A9A9A9"
+      }
+    },
+    {
+      "name": "Parameter Value",
+      "scope": "param-value.realityscript",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Comma after quote",
+      "scope": "comma-after-quote.realityscript",
+      "settings": {
+        "foreground": "#A9A9A9"
+      }
+    },
+    {
+      "name": "Single Quote",
+      "scope": "single-quote.realityscript",
+      "settings": {
+        "foreground": "#A9A9A9"
+      }
+    }
+  ]
+}

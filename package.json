@@ -1,0 +1,52 @@
+{
+  "name": "realityscript",
+  "displayName": "RealityScript",
+  "description": "VSCode support for RealityScript",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:realityscript"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "realityscript",
+        "extensions": [
+          ".rs",
+          ".realityscript"
+        ],
+        "aliases": [
+          "RealityScript",
+          "realityscript"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "realityscript",
+        "scopeName": "source.realityscript",
+        "path": "./syntaxes/realityscript.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "realityscript",
+        "path": "./snippets/realityscript.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "RealityScript Neon Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/realityscript-theme.json"
+      }
+    ]
+  }
+}

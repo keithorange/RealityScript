@@ -1,0 +1,58 @@
+{
+  "name": "RealityScript",
+  "scopeName": "source.realityscript",
+  "patterns": [
+    {
+      "name": "variable-name.realityscript",
+      "match": "\\$[A-Za-z_][A-Za-z0-9_]*"
+    },
+    {
+      "name": "comma-after-quote.realityscript",
+      "match": "(?<=')\\s*,"
+    },
+    {
+      "name": "single-quote.realityscript",
+      "match": "'"
+    },
+    {
+      "name": "directive.realityscript",
+      "match": "#[A-Z_]+\\b"
+    },
+    {
+      "name": "command.realityscript",
+      "match": "@[a-z_]+\\b"
+    },
+    {
+      "name": "modifier.realityscript",
+      "match": "~[a-z_]+\\b"
+    },
+    {
+      "name": "logic.realityscript",
+      "match": "!(IF|THEN|ELSE|LOOP|SWITCH|CASE|RANDOM)\\b"
+    },
+    {
+      "name": "feedback.realityscript",
+      "match": "!(REVIEW|REFINE|RETRY)\\b"
+    },
+    {
+      "name": "technique.realityscript",
+      "match": "!(MIX|CHAIN)\\b"
+    },
+    {
+      "name": "debug.realityscript",
+      "match": "!(ERROR_LOG|TRACE|HISTORY|SUGGEST|COMPARE)\\b"
+    },
+    {
+      "name": "system.realityscript",
+      "match": "![A-Z_]+\\b"
+    },
+    {
+      "name": "param-name-and-equals.realityscript",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*=\\s*(?=')"
+    },
+    {
+      "name": "param-value.realityscript",
+      "match": "'(.*?)'"
+    }
+  ]
+}

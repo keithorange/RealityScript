@@ -1,0 +1,373 @@
+{
+  "Insert Directive FILL": {
+    "prefix": "#FILL",
+    "body": [
+      "#FILL"
+    ],
+    "description": "Inserts the FILL directive."
+  },
+  "Insert Directive NO FILL": {
+    "prefix": "#NO_FILL",
+    "body": [
+      "#NO_FILL"
+    ],
+    "description": "Inserts the NO FILL directive."
+  },
+  "Insert Directive FOLLOW_TONE": {
+    "prefix": "#FOLLOW_TONE",
+    "body": [
+      "#FOLLOW_TONE"
+    ],
+    "description": "Inserts the FOLLOW TONE directive."
+  },
+  "Define a new Character": {
+    "prefix": "@character",
+    "body": [
+      "@character(name=\"${1:name}\", age=\"${2:age}\", description=\"${3:description}\", background=\"${4:background}\", motivation=\"${5:motivation}\")"
+    ],
+    "description": "Defines a new character"
+  },
+  "Set a Location": {
+    "prefix": "@location",
+    "body": [
+      "@location(place=\"${1:place}\", time_period=\"${2:time_period}\", mood=\"${3:mood}\")"
+    ],
+    "description": "Sets the scene's location"
+  },
+  "Define Time": {
+    "prefix": "@time",
+    "body": [
+      "@time(day_or_night=\"${1:day_or_night}\", specific_time=\"${2:specific_time}\")"
+    ],
+    "description": "Sets the time of the scene"
+  },
+  "Character Interaction": {
+    "prefix": "@interaction",
+    "body": [
+      "@interaction(character1=\"${1:character1}\", character2=\"${2:character2}\", type=\"${3:dialogue/handshake}\")"
+    ],
+    "description": "Defines an interaction between characters"
+  },
+  "Define Story Element": {
+    "prefix": "@story_element",
+    "body": [
+      "@story_element(type=\"${1:conflict/climax}\", details=\"${2:details}\")"
+    ],
+    "description": "Adds a story element"
+  },
+  "Define Color": {
+    "prefix": "@color",
+    "body": [
+      "@color(color_palette=\"${1:color_palette}\", symbolic_meaning=\"${2:symbolic_meaning}\")"
+    ],
+    "description": "Defines a color palette and symbolic meaning"
+  },
+  "Define Smell": {
+    "prefix": "@smell",
+    "body": [
+      "@smell(description=\"${1:description}\", intensity=\"${2:medium}\")"
+    ],
+    "description": "Defines a smell"
+  },
+  "Define Texture": {
+    "prefix": "@texture",
+    "body": [
+      "@texture(surface=\"${1:surface}\", feel=\"${2:feel}\")"
+    ],
+    "description": "Defines a texture"
+  },
+  "Define Taste": {
+    "prefix": "@taste",
+    "body": [
+      "@taste(food_or_drink=\"${1:food_or_drink}\", flavor_description=\"${2:flavor_description}\")"
+    ],
+    "description": "Defines a taste"
+  },
+  "Define Set": {
+    "prefix": "@set",
+    "body": [
+      "@set(set_design=\"${1:set_design}\", set_type=\"${2:set_type}\")"
+    ],
+    "description": "Defines a set"
+  },
+  "Define Prop": {
+    "prefix": "@prop",
+    "body": [
+      "@prop(object=\"${1:object}\", symbolic_value=\"${2:symbolic_value}\")"
+    ],
+    "description": "Defines a prop"
+  },
+  "Define Camera": {
+    "prefix": "@camera",
+    "body": [
+      "@camera(film_or_video=\"${1:film_or_video}\", camera_type=\"${2:camera_type}\", frame_rate=\"${3:frame_rate}\", lenses=\"${4:lenses}\")"
+    ],
+    "description": "Defines a camera"
+  },
+  "Define Composition": {
+    "prefix": "@composition",
+    "body": [
+      "@composition(composition_style=\"${1:composition_style}\", framing=\"${2:framing}\")"
+    ],
+    "description": "Defines a composition"
+  },
+  "Define Weather": {
+    "prefix": "@weather",
+    "body": [
+      "@weather(current=\"${1:current}\", transition_to=\"${2:next_weather}\", transition_time=\"${3:time}\")"
+    ],
+    "description": "Defines weather"
+  },
+  "Define Environment": {
+    "prefix": "@environment",
+    "body": [
+      "@environment(effect=\"${1:fog/smoke}\", intensity=\"${2:medium}\")"
+    ],
+    "description": "Defines an environmental effect"
+  },
+  "Define Post Production": {
+    "prefix": "@post_production",
+    "body": [
+      "@post_production(color_grading=\"${1:color_grading}\", visual_effect=\"${2:visual_effect}\", editing_style=\"${3:editing_style}\")"
+    ],
+    "description": "Defines post production"
+  },
+  "Define Audio Cue": {
+    "prefix": "@audio_cue",
+    "body": [
+      "@audio_cue(type=\"${1:ambient/effect}\", description=\"${2:description}\")"
+    ],
+    "description": "Defines an audio cue"
+  },
+  "Define Inner Thought": {
+    "prefix": "@inner_thought",
+    "body": [
+      "@inner_thought(character=\"${1:character}\", reflection=\"${2:reflection}\")"
+    ],
+    "description": "Defines an inner thought"
+  },
+  "Define Flashback": {
+    "prefix": "@flashback",
+    "body": [
+      "@flashback(scene_details=\"${1:scene_details}\")"
+    ],
+    "description": "Defines a flashback"
+  },
+  "Define Voiceover": {
+    "prefix": "@voiceover",
+    "body": [
+      "@voiceover(character=\"${1:character}\", narration=\"${2:narration}\")"
+    ],
+    "description": "Defines a voiceover"
+  },
+  "Define Humor": {
+    "prefix": "@humor",
+    "body": [
+      "@humor(type=\"${1:pun/wordplay/visual_gag}\", content=\"${2:content}\")"
+    ],
+    "description": "Defines a humor element"
+  },
+  "Set Tone": {
+    "prefix": "~tone",
+    "body": [
+      "~tone ${1:description}"
+    ],
+    "description": "Sets the tone"
+  },
+  "Add Extra": {
+    "prefix": "~extra",
+    "body": [
+      "~extra ${1:description}"
+    ],
+    "description": "Adds extra description"
+  },
+  "Set Pace": {
+    "prefix": "~pace",
+    "body": [
+      "~pace ${1:fast/slow/medium}"
+    ],
+    "description": "Sets the pacing"
+  },
+  "Set Emotion": {
+    "prefix": "~emotion",
+    "body": [
+      "~emotion ${1:emotion_type}"
+    ],
+    "description": "Sets the dominant emotion"
+  },
+  "Set Language": {
+    "prefix": "~language",
+    "body": [
+      "~language ${1:language_type}"
+    ],
+    "description": "Sets the language or dialect spoken"
+  },
+  "Detailed Description": {
+    "prefix": "~detailed",
+    "body": [
+      "~detailed"
+    ],
+    "description": "For comprehensive descriptions"
+  },
+  "Brief Description": {
+    "prefix": "~brief",
+    "body": [
+      "~brief"
+    ],
+    "description": "For concise descriptions"
+  },
+  "Neutral Tone": {
+    "prefix": "~neutral",
+    "body": [
+      "~neutral"
+    ],
+    "description": "To ensure a neutral tone"
+  },
+  "If Condition": {
+    "prefix": "!IF",
+    "body": [
+      "!IF ${1:condition} THEN ${2:Command1} ELSE ${3:Command2}"
+    ],
+    "description": "IF...THEN...ELSE conditional execution"
+  },
+  "Loop Command": {
+    "prefix": "!LOOP",
+    "body": [
+      "!LOOP ${1:n} ${2:Command}"
+    ],
+    "description": "Repeat command n times"
+  },
+  "Switch Case": {
+    "prefix": "!SWITCH",
+    "body": [
+      "!SWITCH ${1:condition} CASE ${2:value1} CASE ${3:value2}..."
+    ],
+    "description": "Multiple conditional executions"
+  },
+  "Random Command": {
+    "prefix": "!RANDOM",
+    "body": [
+      "!RANDOM ${1:Command1}, ${2:Command2}, ..."
+    ],
+    "description": "Randomly select one of the provided commands to execute"
+  },
+  "Review Content": {
+    "prefix": "!REVIEW",
+    "body": [
+      "!REVIEW"
+    ],
+    "description": "Instructs the AI to present the content for review"
+  },
+  "Refine Segment": {
+    "prefix": "!REFINE",
+    "body": [
+      "!REFINE ${1:segment_identifier}"
+    ],
+    "description": "Refine a segment"
+  },
+  "Retry Segment": {
+    "prefix": "!RETRY",
+    "body": [
+      "!RETRY ${1:segment_identifier}"
+    ],
+    "description": "Redo a segment"
+  },
+  "Function Definition": {
+    "prefix": "!FUNCTION",
+    "body": [
+      "!FUNCTION ${1:FunctionName}($2:Parameter) { $3:Commands }"
+    ],
+    "description": "Create custom functions"
+  },
+  "Import External Content": {
+    "prefix": "!IMPORT",
+    "body": [
+      "!IMPORT ${1:external_source}"
+    ],
+    "description": "Integrate external content or data"
+  },
+  "Mix Commands": {
+    "prefix": "!MIX",
+    "body": [
+      "!MIX ${1:Command1}, ${2:Command2}"
+    ],
+    "description": "Mix two commands to create a hybrid scene or action"
+  },
+  "Chain Commands": {
+    "prefix": "!CHAIN",
+    "body": [
+      "${1:Command1} -> ${2:Command2}"
+    ],
+    "description": "Chain commands and events sequentially"
+  },
+  "Retrieve Error Log": {
+    "prefix": "!ERROR_LOG",
+    "body": [
+      "!ERROR_LOG"
+    ],
+    "description": "Retrieve misunderstood commands"
+  },
+  "Trace Process": {
+    "prefix": "!TRACE",
+    "body": [
+      "!TRACE"
+    ],
+    "description": "Show AI's thought process"
+  },
+  "Retrieve Command History": {
+    "prefix": "!HISTORY",
+    "body": [
+      "!HISTORY"
+    ],
+    "description": "Retrieve previous commands or outputs"
+  },
+  "Suggest Improvements": {
+    "prefix": "!SUGGEST",
+    "body": [
+      "!SUGGEST"
+    ],
+    "description": "AI suggests potential improvements or alternatives"
+  },
+  "Compare Versions": {
+    "prefix": "!COMPARE",
+    "body": [
+      "!COMPARE ${1:Version1}, ${2:Version2}"
+    ],
+    "description": "Compare two versions of generated content"
+  },
+  "Set Output Format": {
+    "prefix": "!OUTPUT",
+    "body": [
+      "!OUTPUT ${1:format}"
+    ],
+    "description": "Select a format for the generated content"
+  },
+  "Variable Definition": {
+    "prefix": "$variable",
+    "body": [
+      "$$variable = ${1:VariableName} = \"${2:Value}\""
+    ],
+    "description": "Define a new variable"
+  },
+  "Array Definition": {
+    "prefix": "$array",
+    "body": [
+      "$$array = ${1:ArrayName} = [\"${2:Item1}\", \"${3:Item2}\"]"
+    ],
+    "description": "Define a new array"
+  },
+  "Matrix Definition": {
+    "prefix": "$matrix",
+    "body": [
+      "$$matrix = ${1:MatrixName} = {\"${2:{Item1, Item2}}\", \"${3:{Item3, Item4}}\"}"
+    ],
+    "description": "Define a new matrix"
+  },
+  "Object Definition": {
+    "prefix": "$object",
+    "body": [
+      "$$object= ${1:ObjectName} = {\"${2:Key1}\": \"${3:Value1}\", \"${4:Key2}\": \"${5:Value2}\"}"
+    ],
+    "description": "Define a new object"
+  }
+}
