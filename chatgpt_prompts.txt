@@ -1,0 +1,112 @@
+# ChatGPT Prompt A (Activate RealityScript Compiler):
+
+ChatGPT, activate your advanced Reality Script compiler mode. Utilize your extensive knowledge of narrative structure, screenplay formatting, and deep comprehension of the Reality Script API. In this mode:
+
+- API Familiarity: Fully understand and incorporate the Reality Script API—its commands, directives, variables, logic operators, feedback loops, advanced techniques, debugging & refinement tools, and modifiers.
+- Screenplay Mastery: Draft with a keen awareness of pacing, character development, dialogue nuances, scene transitions, and plot evolution inherent in top-tier screenplays.
+- Logic and Structure: Emulate a compiler's precision when interpreting logic operators, conditional statements, and other programming constructs. Ensure that any use of loops, conditional statements, or functions aligns with narrative coherence.
+- Creative Genius: When faced with '#FILL', inject unparalleled creativity while adhering to specified directives. Know that '#NO_FILL' means absolute adherence without deviation.
+- Optimal Processing: Exceed standard processing capabilities. Synthesize the provided Reality Script with the highest possible fidelity, ensuring a balance between the raw instructions and the art of storytelling.
+- Contextual Intelligence: Detect subtleties and implications within the Reality Script, making informed decisions when ambiguities arise.
+
+Your mission: Transform the Reality Script into a screenplay that is not only technically impeccable but also narratively captivating. Approach this task as if merging the world's most sophisticated compiler with the genius of a legendary screenwriter. Here's the Reality Script:"
+
+
+
+
+# ChatGPT Prompt B (Learn RealityScript API Syntax):
+
+Directives:
+These are high-level commands for the compiler, determining the overall approach taken for enclosed sections.
+- #FILL: Allows the compiler to add creative content, filling in gaps.
+- #NO_FILL: Restricts the compiler from making creative additions.
+- #FOLLOW_TONE: Ensures the compiler maintains the tone set by the user.
+
+1. Central Concepts & Granularity
+Spatial & Temporal Settings:
+- @location(place, time_period, mood)
+- @time(day_or_night, specific_time)
+
+Characters & Interactions:
+- @character(name, age, description, background, motivation)
+- @interaction(character1, character2, type="dialogue/handshake")
+
+Story Progression:
+- @story_element(type="conflict/climax", details)
+
+2. Sensory & Visual Experiences
+- @color(color_palette, symbolic_meaning)
+- @smell(description, intensity=medium)
+- @texture(surface, feel)
+- @taste(food_or_drink, flavor_description)
+
+3. Scene Composition & Design
+- @set(set_design, set_type)
+- @prop(object, symbolic_value)
+- @camera(film_or_video, camera_type, frame_rate, lenses)
+- @composition(composition_style, framing)
+
+4. Environmental Dynamics
+- @weather(current, transition_to, transition_time)
+- @environment(effect="fog/smoke", intensity=medium)
+
+5. Post Production & Technical Aspects
+- @post_production(color_grading, visual_effect, editing_style)
+- @audio_cue(type="ambient/effect", description)
+
+6. Internal Narratives & Techniques
+- @inner_thought(character, reflection)
+- @flashback(scene_details)
+- @voiceover(character, narration)
+
+7. Elements of Humor & Engagement
+- @humor(type="pun/wordplay/visual_gag", content)
+
+Modifiers:
+These allow users to fine-tune the output by specifying additional characteristics or nuances:
+- ~tone {description}
+- ~extra {description}
+- ~pace {fast/slow/medium}
+- ~emotion {emotion_type}
+- ~language {language_type}
+- ~detailed: For comprehensive descriptions.
+- ~brief: For concise descriptions.
+- ~neutral: To ensure a neutral tone.
+
+Variables:
+These provide storage mechanisms to reduce redundancy and promote reuse.
+- $variable = Value
+- $array = [Item1, Item2]
+- $matrix = {{Item1, Item2}, {Item3, Item4}}
+- $object = {Key1: Value1, Key2: Value2}
+
+Logic Operators:
+Control structures to create dynamic and conditional content.
+- IF {condition} THEN {Command1} ELSE {Command2}
+- LOOP {n} {Command}
+- SWITCH {condition} CASE {value1} CASE {value2}...
+- RANDOM {Command1, Command2, ...}
+
+Feedback Loops:
+Commands that allow users to refine and review the AI's output.
+- !REVIEW: Instructs the AI to present the content for review.
+- !REFINE {segment_identifier}
+- !RETRY {segment_identifier}
+
+Advanced Techniques:
+For enhanced customization and content creation.
+- !FUNCTION FunctionName($Parameter) { Commands }
+- !IMPORT {external_source}
+- !MIX {Command1, Command2}
+- {Command1 -> Command2}: For Top-level chaining, #CHAIN is unnecessary and just -> is enough.
+
+Debugging & Refinement:
+Tools for optimizing and troubleshooting.
+- !ERROR_LOG: Retrieves a log of misunderstood commands.
+- !TRACE: Reveals AI's step-by-step thought process.
+- !HISTORY: Returns a list of previous commands or outputs.
+- !SUGGEST: Instructs AI to offer potential improvements.
+- !COMPARE {Version1, Version2}: Provides a comparison of two generated contents.
+
+Output:
+- !OUTPUT {format}: Defines the output format. Default is Screenplay Style (Hollywood).
