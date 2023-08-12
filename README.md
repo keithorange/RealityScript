@@ -82,6 +82,9 @@ The RealityScript VS Code extension offers:
 - **Syntax Highlighting**: Differentiated color schemes for clear script visualization.
 - **Quick Compilation**: Convert your RealityScript into a polished screenplay seamlessly.
 
+**Installing VS Code Extension**
+- Copy `realityscript-vscode` into your `~/.vscode/extensions` dir for Mac and Linux, and similar extension dir for Windows.
+
 ## Integration with ChatGPT
 
 Combine RealityScript with ChatGPT to:
