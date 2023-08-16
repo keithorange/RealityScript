@@ -275,7 +275,7 @@
   "Function Definition": {
     "prefix": "!FUNCTION",
     "body": [
-      "!FUNCTION ${1:FunctionName}($2:Parameter) { $3:Commands }"
+      "!FUNCTION ${1:FunctionName}(${2:Parameter}) {${3:Commands}}"
     ],
     "description": "Create custom functions"
   },
