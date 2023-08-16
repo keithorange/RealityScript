@@ -29,7 +29,9 @@ Spatial & Temporal Settings:
 
 Characters & Interactions:
 - @character(name, age, description, background, motivation)
-- @interaction(character1, character2, type="dialogue/handshake")
+- @interaction(character1, character2, interaction)
+- @action(character, action)
+- @dialogue(character1, character2, dialogue)
 
 Story Progression:
 - @story_element(type="conflict/climax", details)

@@ -44,9 +44,23 @@
   "Character Interaction": {
     "prefix": "@interaction",
     "body": [
-      "@interaction(character1='${1:character1}', character2='${2:character2}', type='${3:dialogue/handshake}')"
+      "@interaction(character1='${1:character1}', character2='${2:character2}', interaction='${3:interaction}')"
     ],
     "description": "Defines an interaction between characters"
+  },
+  "Character Action": {
+    "prefix": "@action",
+    "body": [
+      "@action(character='${1:character}', action='${3:action}')"
+    ],
+    "description": "Defines a character action"
+  },
+  "Dialogue": {
+    "prefix": "@dialogue",
+    "body": [
+      "@dialogue(character1='${1:character1}', character2='${2:character2}', dialogue='${3:dialogue}')"
+    ],
+    "description": "Defines an dialogue between characters"
   },
   "Define Story Element": {
     "prefix": "@story_element",

@@ -12,6 +12,8 @@ const commands = [
     '@time',
     '@character',
     '@interaction',
+    '@action',
+    '@dialogue',
     '@story_element',
     '@color',
     '@smell',
